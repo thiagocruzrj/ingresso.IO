@@ -1,0 +1,39 @@
+body{
+    background-color: whitesmoke;
+}
+.jumbotron{
+    background-color: beige;
+}
+header{
+    width: 800px;
+}
+h1{
+    margin-top: 10px;
+}
+.menu{
+    width: 780px;
+    margin: 0;
+}
+.login{
+    width: 250px;
+    float: right;
+    margin-top: -80px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    padding: 5px;
+    padding-bottom: 10px;
+}
+input#btn1{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+input#btn2{
+    margin-left: 10px;
+}
+#searchButton{
+    width: 230px;
+}
+.facaLogin{
+    width: 200px;
+    border-bottom: 1px solid blue;
+}

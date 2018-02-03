@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ingresso.IO</title>
+    <meta name="description" content="Ingresso, loja, online">
+    <meta name="keywords" content="ingressos, eventos, shows, cinemas, novidades">
+    <meta name="author" content="Thiago Cruz">
+    <link href="bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="jumbotron">
+            <header>
+                <nav class="menu">
+                    <h1>Ingresso.IO</h1>
+                    <ul class="nav nav-pills">
+                        <li class="nav-item"><a href="#" title="Home" class="nav-link active">Home</a></li>
+                        <li class="nav-item"><a href="#" title="Filmes" class="nav-link">Filmes</a></li>
+                        <li class="nav-item"><a href="#" title="Cinema" class="nav-link">Cinema</a></li>
+                        <li class="nav-item"><a href="#" title="Eventos" class="nav-link">Eventos</a></li>
+                        <li class="nav-item"><a href="#" title="Sobre" class="nav-link">Sobre</a></li>
+                        <li class="nav-item"><a href="#" title="Ajuda" class="nav-link">Ajuda</a></li>
+                        <input id="searchButton" class="form-control mr-sm-2" type="text" name="search" id="search" placeholder="Buscar por filmes, eventos ...">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <section class="login">
+                    <div class="container">
+                        <form name="logar" method="post" action="#">
+                            <label for="faca login" class="facaLogin">Faça login</label>
+                            <label for="seu email">Seu email</label>
+                            <input type="text" name="email" class="form-control" id="email" placeholder="Digite seu email">
+
+                            <label for="senha">Senha</label>
+                            <input type="password" class="form-control" name="senha" id="senha" placeholder="******">
+
+                            <input id="btn1" type="Submit" class="btn btn-primary" value="Entrar" id="entrar">
+
+                            <label for="esqueci a senha"><a href="#" title="esqueci">Esqueci minha senha</a></label>
+
+                            <label for="cadastrar">Cadastre-se</label>
+                            <input id="btn2" type="Submit" class="btn btn-primary" value="Criar nova Conta" id="cadastrar">
+                        </form>
+                    </div>
+                </section>
+                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-lide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-lide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-lide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <img class="d-block img-fluid" src="..." alt="primeiroSlide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="..." alt="segundoSlide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block img-fluid" src="..." alt="terceiroSlide">
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Anterior</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Próximo</span>
+                        </a>
+                    </div>
+                </div>
+            </main>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -7,7 +7,7 @@
  *
  * Copyright JS Foundation and other contributors
  * Released under the MIT license
- * https://jquery.org/license
+ * https://jquery.org/license 
  *
  * Date: 2018-01-20T17:24Z
  */
